@@ -1,10 +1,9 @@
-package com.solutis.entities;
+package com.solutis.models.entities;
 
-import com.solutis.entities.enums.Sexo;
+import com.solutis.models.entities.enums.Sexo;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Table;
 import jakarta.validation.constraints.NotBlank;
-import jakarta.validation.constraints.Pattern;
 
 import java.time.Instant;
 

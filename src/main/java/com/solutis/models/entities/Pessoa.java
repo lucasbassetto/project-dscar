@@ -1,7 +1,7 @@
-package com.solutis.entities;
+package com.solutis.models.entities;
 
 
-import com.solutis.entities.enums.Sexo;
+import com.solutis.models.entities.enums.Sexo;
 import jakarta.persistence.*;
 import jakarta.persistence.Inheritance;
 import jakarta.validation.constraints.NotBlank;

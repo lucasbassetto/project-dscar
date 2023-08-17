@@ -1,6 +1,6 @@
-package com.solutis.entities;
+package com.solutis.models.entities;
 
-import com.solutis.entities.enums.Sexo;
+import com.solutis.models.entities.enums.Sexo;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Table;
 import jakarta.validation.constraints.NotBlank;
@@ -11,7 +11,7 @@ import java.time.Instant;
 
 @Entity
 @Table(name = "tb_motorista")
-public class Motorista extends Pessoa{
+public class Motorista extends Pessoa {
 
     @NotBlank
     @Size(min = 10, max = 10)
@@ -19,6 +19,7 @@ public class Motorista extends Pessoa{
     private String numeroCNH;
 
     public Motorista() {
+
     }
 
     public Motorista(Long id, String nome, Instant date, String cpf, Sexo sexo, String numeroCNH) {

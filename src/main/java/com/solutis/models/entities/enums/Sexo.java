@@ -1,4 +1,4 @@
-package com.solutis.entities.enums;
+package com.solutis.models.entities.enums;
 
 public enum Sexo {
 
